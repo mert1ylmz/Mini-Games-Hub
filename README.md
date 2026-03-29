@@ -2,7 +2,9 @@
 
 Modern ve şık bir arayüze sahip, eğlenceli ve klasik mini oyunlar koleksiyonu.
 
-![Mini Games Hub Preview](https://via.placeholder.com/1200x600?text=Mini+Games+Hub+Preview) *Görsel temsilidir.*
+
+<img width="1920" height="944" alt="Screenshot 2026-03-29 153520" src="https://github.com/user-attachments/assets/d70d0e21-3487-45c0-b209-7fbd91f62560" />
+
 
 ## 🌟 Özellikler
 
