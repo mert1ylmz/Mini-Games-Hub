@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mini Games Hub – Eğlenceli Oyunlar</title>
+  <meta name="description" content="Snake, Tic-Tac-Toe, Memory Match, Flappy Bird ve 2048 oyunlarını tek bir yerde oynayın!" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div id="app">
+    <!-- HUB PAGE -->
+    <section id="hub" class="page active">
+      <header class="hub-header">
+        <h1 class="hub-title">
+          <span class="emoji">🎮</span> Mini Games Hub
+        </h1>
+        <p class="hub-subtitle">Eğlenceli oyunlar seni bekliyor!</p>
+      </header>
+      <div class="games-grid" id="gamesGrid"></div>
+    </section>
+
+    <!-- GAME PAGE -->
+    <section id="gamePage" class="page">
+      <div class="game-topbar">
+        <button id="backBtn" class="back-btn" aria-label="Ana Sayfaya Dön">
+          <span class="back-arrow">←</span> Ana Sayfa
+        </button>
+        <div class="game-info">
+          <span id="gameTitle" class="game-page-title"></span>
+          <span id="gameScore" class="game-score"></span>
+        </div>
+      </div>
+      <div id="gameContainer" class="game-container"></div>
+    </section>
+  </div>
+
+  <script src="js/router.js"></script>
+  <script src="js/games/snake.js"></script>
+  <script src="js/games/tictactoe.js"></script>
+  <script src="js/games/memory.js"></script>
+  <script src="js/games/flappy.js"></script>
+  <script src="js/games/game2048.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
